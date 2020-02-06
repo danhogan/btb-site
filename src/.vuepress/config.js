@@ -11,13 +11,15 @@ module.exports = {
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'About', link: '/about/' },
+			{ text: 'Projects', link: '/projects/' },
 			{ text: 'Blog', link: '/blog/' }
 		],
-		logo: '/udl.png',
+		logo: '/logo.png',
 		docsDir: 'src',
 		pageSize: 5,
 		startPage: 0,
-		newestFirst: true
+        newestFirst: true,
+        search: false
 	},
 	plugins: [
 		[
