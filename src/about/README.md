@@ -1,3 +1,3 @@
-# About The Ultimate Dynasty League
+# About
 
-The Ultimate Dynasty League is a dynasty fantasy baseball league that began its initial slow draft sometime in the summer of 2016 and had its inaugural year of competition in 2017. Now we just sit around waiting for someone to pick up Tebow.
+My name is Dan Hogan. Below The Benthic is some sort of slightly-more-unique moniker I use on the interwebs. I identify as a web/software developer, musician, sports-nerd, and a follower of Jesus. All opinions on this site are my own. You can also find me on Github, LinkedIn, Twitter, Instagram, Soundcloud, Flickr, and maybe other places where you search for me.
