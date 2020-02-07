@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>hi</h1>
-
+    
     <div class="footer" v-if="data.footer">{{ data.footer }}</div>
   </div>
 </template>
