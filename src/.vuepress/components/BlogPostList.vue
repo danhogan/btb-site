@@ -8,7 +8,7 @@ export default {
         },
         pageSize: {
             type: Number,
-            default: 5
+            default: 800
         },
         startPage: {
             type: Number,
@@ -96,15 +96,11 @@ export default {
                 Clear filter
             </button>
         </div>
-        <ul class="blog-list">
-            <li v-for="(item, index) in filteredList"
-                class="blog-list__item">
-                <BlogPostPreview 
-                    v-show="index >= currentPage * pageSize && index < (currentPage + 1) * pageSize"
-                    :item="item"
-                />
-            </li>
-        </ul>
+
+        <div class="post-container">
+            <BlogPostPreview v-for="item in filteredList" class="blog-list__item" :item="item" />
+        </div>
+        
 
         <div class="pagination">
             <button v-show="currentPage > 0" 
@@ -166,5 +162,18 @@ export default {
 
 .pagination {
     text-align: center;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+}
+
+@media only screen and (max-width: 865px) {
+  .post-container {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

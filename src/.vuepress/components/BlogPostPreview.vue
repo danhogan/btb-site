@@ -23,13 +23,14 @@ export default {
 </script>
 
 <template>
-	<section>
-        <time>{{ formatPublishDate }}</time>
-        <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
-        <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p>
-        <!-- <p v-if="item.readingTime">Estimated time: {{ item.readingTime.text }}</p> -->
-        <a class="button blog-post__button " :href="item.path">Read More ></a>
-    </section>
+    <a :href="item.path">
+        <img src="https://media.proprofs.com/images/QM/user_images/1826446/1484286330.jpg">
+        <div>
+            <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
+            <!-- <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p> -->
+            <time>{{ formatPublishDate }}</time>
+        </div>
+    </a>
 </template>
 
 <style scoped>
@@ -73,5 +74,28 @@ export default {
     padding: 5px;
     font-size: 0.9rem;
     background-color: #fff;
+}
+
+.post-container > a {
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+    cursor: pointer;
+    background-color: #6535CC;
+}
+
+.post-container > a:hover {
+    box-shadow: 0 8px 12px 0 rgba(255,242,56,.4);
+    text-decoration: none;
+}
+
+.post-container img {
+    display: block;
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+}
+
+.post-container div {
+    padding: 1em;
+    height: 7em;
 }
 </style>
