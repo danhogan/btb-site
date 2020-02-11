@@ -1,6 +1,6 @@
 ---
-title: Bulma BurgerCOLON Creating A Mobile Navbar With Bulma And Vue
-date: 2018-12-23 20:47:18
+title: "Bulma Burger: Creating A Mobile Navbar With Bulma And Vue"
+date: 2018-09-24 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
 type: post
 blog: true

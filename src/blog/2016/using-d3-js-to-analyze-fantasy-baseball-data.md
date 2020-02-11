@@ -1,6 +1,6 @@
 ---
 title: Using D3.js to Analyze Fantasy Baseball Data
-date: 2018-12-23 20:47:18
+date: 2016-05-13 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
 type: post
 blog: true

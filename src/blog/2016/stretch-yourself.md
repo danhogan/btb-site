@@ -1,6 +1,6 @@
 ---
 title: Stretch Yourself
-date: 2018-12-23 20:47:18
+date: 2016-04-11 12:00:00
 excerpt: Lately, I’ve been trying to be a bit better about my posture and at work.
 type: post
 blog: true

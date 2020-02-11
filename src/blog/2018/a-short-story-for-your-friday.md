@@ -1,6 +1,6 @@
 ---
 title: A Short Story For Your Friday
-date: 2018-12-23 20:47:18
+date: 2018-12-07 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
 type: post
 blog: true

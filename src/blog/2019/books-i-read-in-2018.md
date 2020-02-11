@@ -1,12 +1,14 @@
 ---
 title: Books I Read in 2018
-date: 2018-12-23 20:47:18
+date: 2019-02-01 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
 type: post
 blog: true
 tags:
     - Ramblings
 ---
+
+## So Good They Can't Ignore You by Cal Newport
 
 ![So Good They Can't Ignore You](../images/so-good-they-cant-ignore.jpg)
 
@@ -15,6 +17,8 @@ It had been an embarrasingly long time since I picked up a physical book and rea
 I'll give it a 4 out of 5
 
 ![four-bennies](../images/four-bennies.jpg)
+
+## Good To Great by James Collins
 
 ![Good To Great](../images/good-to-great.jpg)
 
@@ -28,6 +32,8 @@ I'll give it a 4 out of 5
 
 ![four-bennies](../images/four-bennies.jpg)
 
+## Big Data Baseball by Travis Sawchik
+
 ![Big Data Baseball](../images/big-data-baseball.jpg)
 
 *Big Data Baseball* was an enjoyable read from Travis Sawchik, who I was already familiar with seeing on [fangraphs.com](https://www.fangraphs.com/). The book gives incredible insight into a struggling Pirates franchise and how they leveraged their brains to improve their on-field play. The whole thing reads like a delightful story and I would definitely recommend it to any baseball fan.
@@ -35,3 +41,14 @@ I'll give it a 4 out of 5
 I'll give it a 4 out of 5
 
 ![four-bennies](../images/four-bennies.jpg)
+
+<style>
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin-top: 3em;
+    }
+</style>

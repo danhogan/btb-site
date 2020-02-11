@@ -102,7 +102,7 @@ export default {
         </div>
         
 
-        <div class="pagination">
+        <!-- <div class="pagination">
             <button v-show="currentPage > 0" 
                 @click="previousPage"
                 class="button--pagination"
@@ -117,7 +117,7 @@ export default {
             >
                 Next
             </button>
-        </div>
+        </div> -->
     </div>
 </template>
 
