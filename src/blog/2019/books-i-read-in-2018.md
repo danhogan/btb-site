@@ -2,6 +2,7 @@
 title: Books I Read in 2018
 date: 2019-02-01 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
+photo: "books-2018.jpg"
 type: post
 blog: true
 tags:

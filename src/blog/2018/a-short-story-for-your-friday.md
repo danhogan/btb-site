@@ -2,6 +2,7 @@
 title: A Short Story For Your Friday
 date: 2018-12-07 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
+photo: "grocery.jpg"
 type: post
 blog: true
 tags:

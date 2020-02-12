@@ -1,5 +1,9 @@
 <template>
   <div class="blog">
+      <div class="header-image">
+          <!-- make image expand 100% width over whole window -->
+        <img :src="'/blogHeaderImages/' + $frontmatter.photo">
+      </div>
     <div class="blog__header">
       <p class="publish-date">
         <time :datetime="$frontmatter.date">{{ publishDate }}</time>
@@ -282,5 +286,15 @@ function find(page, items, offset) {
   .blog__title {
     font-size: 2.441rem;
   }
+}
+
+.header-image {
+    margin-top: 5em;
+}
+
+.header-image > img {
+    width: 100%;
+    object-fit: cover;
+    height: 20em;
 }
 </style>

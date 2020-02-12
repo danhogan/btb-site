@@ -2,6 +2,7 @@
 title: Top Albums of 2018
 date: 2018-12-29 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
+photo: "record.jpg"
 type: post
 blog: true
 tags:

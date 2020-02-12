@@ -2,6 +2,7 @@
 title: Scraping ESPN Fantasy Baseball Data with Node.js
 date: 2016-06-30 12:00:00
 excerpt: Summer is just about here and baseball is back in full swing
+photo: "cheerios.jpg"
 type: post
 blog: true
 tags:

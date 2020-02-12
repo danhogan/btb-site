@@ -24,7 +24,7 @@ export default {
 
 <template>
     <a :href="item.path">
-        <img src="https://media.proprofs.com/images/QM/user_images/1826446/1484286330.jpg">
+        <img :src="'/blogHeaderImages/' + item.frontmatter.photo">
         <div>
             <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
             <!-- <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p> -->
