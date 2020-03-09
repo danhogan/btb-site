@@ -79,7 +79,8 @@ export default {
 .post-container > a {
     box-shadow: 0 4px 6px 0 rgba(34, 34, 34, 0.2);
     cursor: pointer;
-    background-color: #3C1F7B;
+    background-color: #281552;
+    color: #ddd;
 }
 
 .post-container > a:hover {
@@ -97,5 +98,9 @@ export default {
 .post-container div {
     padding: 1em;
     height: 7em;
+}
+
+.post-container h3 {
+    color: white;
 }
 </style>
