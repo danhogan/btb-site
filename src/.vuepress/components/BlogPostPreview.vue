@@ -77,13 +77,13 @@ export default {
 }
 
 .post-container > a {
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+    box-shadow: 0 4px 6px 0 rgba(34, 34, 34, 0.2);
     cursor: pointer;
     background-color: #6535CC;
 }
 
 .post-container > a:hover {
-    box-shadow: 0 8px 12px 0 rgba(255,242,56,.4);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, .8);
     text-decoration: none;
 }
 

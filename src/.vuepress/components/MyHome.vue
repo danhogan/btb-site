@@ -35,7 +35,7 @@
             </a>
         </div>
         <div>
-            <a target="_blank" href="/blog">
+            <a href="/blog">
                 <i class="fa fa-pencil"></i>
                 <span>Blog</span>
             </a>
