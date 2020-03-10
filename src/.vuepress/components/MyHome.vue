@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Karla&display=swap" rel="stylesheet">
     <div class="heroContainer">
       <h1>Dan Hogan</h1>
         <h2>Full-Stack Web Developer</h2>
@@ -71,6 +72,7 @@ export default {
 body {
     background-color: #281552;
     color: #ccc;
+    font-family: 'Karla', sans-serif;
 }
 </style>
 
@@ -83,6 +85,7 @@ h2 {
 h1 {
   font-size: 5em;
   margin-bottom: 0;
+  font-family: 'Caveat', cursive;
 }
 
 h2 {
