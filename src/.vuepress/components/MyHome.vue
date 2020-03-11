@@ -89,7 +89,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 
 .heroContainer {
