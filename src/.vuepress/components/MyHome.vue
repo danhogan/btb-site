@@ -43,6 +43,21 @@
         </div>
     </div>
 
+    <div class="projectsContainer">
+        <h2>Projects</h2>
+        <div class="project" v-for="project in projects">
+            <h3>{{project.title}}</h3>
+            <div class="tech">
+                <span v-for="tech in project.tech">{{tech}}</span>
+            </div>
+            <p>{{project.description}}</p>
+            <div class="links">
+                <a v-if="project.link" :href="project.link" target="_blank">Project</a>
+                <a v-if="project.github" :href="project.github" target="_blank">Github</a>
+            </div>
+        </div>
+    </div>
+
     <!-- https://maximpekarsky.com/
         https://www.andrewaskins.com/about/
         https://alexbainter.com/
@@ -64,7 +79,68 @@
 
 <script>
 export default {
-    
+    data() {
+        return {
+            projects: [
+                {
+                    title: "Batted Ball Data",
+                    tech: ["Vue.js", "Vuetify", "ApexCharts", "Python"],
+                    description: "A look at baseball batted ball data.",
+                    link: "https://danhogan.github.io/batted-ball/",
+                    github: "https://github.com/danhogan/batted-ball",
+                    img: ""
+                },
+                {
+                    title: "Fantasy Baseball Charts",
+                    tech: ["JavaScript", "Node.js", "Express", "Cheerio", "D3.js"],
+                    description: "A project that scrapes a fantasy baseball league on ESPN and displays weekly totals over the course of a season.",
+                    link: "http://danhogan.github.io/fantasy-baseball-charts/",
+                    github: "https://github.com/danhogan/fantasy-baseball-scrape",
+                    img: ""
+                },
+                {
+                    title: "This Site",
+                    tech: ["Vuepress", "Vue.js", "JavaScript"],
+                    description: "My personal site and blog.",
+                    link: "http://belowthebenthic.com/",
+                    github: "https://github.com/danhogan/btb-site",
+                    img: ""
+                },
+                {
+                    title: "Misplaced Hashtags",
+                    tech: ["Node.js", "Twitter API"],
+                    description: "A goofy Twitter bot that swaps around trending hashtags.",
+                    link: "https://twitter.com/misplacedtags",
+                    github: "",
+                    img: ""
+                },
+                {
+                    title: "Cheesy Tweets",
+                    tech: ["Node.js", "Express", "Socket.io", "WebGL/Three.js", "Twitter API"],
+                    description: "If you want to look at what everyone says about cheese on Twitter while viewing a pulsing cube that was eventually going to look like a wedge of cheese, you've come to the right place. Also, find help.",
+                    link: "",
+                    github: "https://github.com/danhogan/CheesyTweets",
+                    img: ""
+                },
+                {
+                    title: "NFL Tweets",
+                    tech: ["Node.js", "Express", "Socket.io", "Twitter API"],
+                    description: "Displays side-by-side streams and counters on two keywords in a Twitter search. I made it Bears vs Packers.",
+                    link: "",
+                    github: "https://github.com/danhogan/NFLTweets",
+                    img: ""
+                },
+                {
+                    title: "Misplaced Hashtags",
+                    tech: ["Node.js", "Express", "Socket.io", "D3.js", "Twitter API"],
+                    description: "A beginning look at a specific search term on Twitter. Tracks tweets/minute and displays bar graphs.",
+                    link: "",
+                    github: "https://github.com/danhogan/TwitterStreamData",
+                    img: ""
+                }
+            ]
+        };
+    }
 }
 </script>
 
@@ -114,5 +190,26 @@ h2 {
     display: block;
     font-size: 2em;
     margin-bottom: 0.2em;
+}
+
+.projectsContainer {
+    margin-top: 5em;
+}
+
+.project {
+    background-color: #3C1F7B;
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 4px #160b2e;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.tech span {
+    background-color: blue;
+    margin: 0 1em;
+    border-radius: 10px;
+    padding: 0.5em;
 }
 </style>
