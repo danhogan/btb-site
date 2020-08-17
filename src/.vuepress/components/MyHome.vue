@@ -12,7 +12,7 @@
             <span>About</span>
         </div>
         <div>
-            <a href="#projects">
+            <a href="#projectHeader">
                 <i class="fa fa-image"></i>
                 <span>Projects</span>
             </a>
@@ -43,12 +43,12 @@
         </div>
     </div>
 
+    <h2 id="projectHeader">Projects</h2>
     <div class="projectsContainer">
-        <h2>Projects</h2>
         <div class="project" v-for="project in projects">
             <h3>{{project.title}}</h3>
             <div class="tech">
-                <span v-for="tech in project.tech">{{tech}}</span>
+                <div v-for="tech in project.tech">{{tech}}</div>
             </div>
             <p>{{project.description}}</p>
             <div class="links">
@@ -58,15 +58,8 @@
         </div>
     </div>
 
-    <!-- https://maximpekarsky.com/
-        https://www.andrewaskins.com/about/
-        https://alexbainter.com/
-    https://wattenberger.com/-->
+    <!-- https://maximpekarsky.com/-->
 
-    <!-- Get rid of top nav
-        about is right on the home page
-        projects are lower down on the home page
-    blog is linked somewhere in about-->
     <!-- <style>
             body {
                 background: linear-gradient(41deg, rgba(107, 107, 107, 0.04) 0%, rgba(107, 107, 107, 0.04) 8%,rgba(31, 31, 31, 0.04) 8%, rgba(31, 31, 31, 0.04) 100%),linear-gradient(9deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 62%,rgba(54, 54, 54, 0.04) 62%, rgba(54, 54, 54, 0.04) 100%),linear-gradient(124deg, rgba(18, 18, 18, 0.04) 0%, rgba(18, 18, 18, 0.04) 37%,rgba(233, 233, 233, 0.04) 37%, rgba(233, 233, 233, 0.04) 100%),linear-gradient(253deg, rgba(201, 201, 201, 0.04) 0%, rgba(201, 201, 201, 0.04) 55%,rgba(47, 47, 47, 0.04) 55%, rgba(47, 47, 47, 0.04) 100%),linear-gradient(270deg, rgba(172, 172, 172, 0.04) 0%, rgba(172, 172, 172, 0.04) 33%,rgba(26, 26, 26, 0.04) 33%, rgba(26, 26, 26, 0.04) 100%),linear-gradient(64deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 38%,rgba(87, 87, 87, 0.04) 38%, rgba(87, 87, 87, 0.04) 100%),linear-gradient(347deg, rgba(199, 199, 199, 0.04) 0%, rgba(199, 199, 199, 0.04) 69%,rgba(4, 4, 4, 0.04) 69%, rgba(4, 4, 4, 0.04) 100%),linear-gradient(313deg, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 20%,rgba(91, 91, 91, 0.04) 20%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(90deg, rgb(10, 17, 72),rgb(35, 148, 228));
@@ -150,6 +143,10 @@ body {
     color: #ccc;
     font-family: 'Karla', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 </style>
 
 <style scoped>
@@ -181,6 +178,59 @@ h2 {
     text-align: center;
 }
 
+/* https://codepen.io/davidicus/pen/emgQKJ */
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+.links > div {
+    letter-spacing: 0;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px; 
+    position: relative;
+    text-decoration: none;
+    width: 100%; 
+}
+
+.links > div:hover,
+.links > div:active {
+    letter-spacing: 5px;
+}
+
+.links > div:after,
+.links > div:before {
+    backface-visibility: hidden;
+    border: 1px solid #281552;
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    /* transition: all 280ms ease-in-out; */
+    width: 0;
+}
+
+.links > div:hover:after,
+.links > div:hover:before {
+    backface-visibility: hidden;
+    border-color: #CCC;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+}
+
+.links > div:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+}
+
 .links a {
     text-decoration: none;
     color: #ccc;
@@ -192,24 +242,34 @@ h2 {
     margin-bottom: 0.2em;
 }
 
+#projectHeader {
+    margin-top: 7em;
+}
+
 .projectsContainer {
-    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
 }
 
 .project {
     background-color: #3C1F7B;
-    width: 40%;
-    margin: auto;
     border-radius: 5px;
     box-shadow: 0px 5px 4px #160b2e;
     padding: 1em;
     margin-bottom: 2em;
 }
 
-.tech span {
-    background-color: blue;
-    margin: 0 1em;
+.tech > div {
+    background-color: #281552;
+    color: #CCC;
+    margin: 0.5em 1em;
     border-radius: 10px;
     padding: 0.5em;
+    display: inline-block;
+}
+
+.tech {
+    margin-left: -1em;
 }
 </style>
