@@ -8,12 +8,6 @@ module.exports = {
 		repoLabel: 'Repo',
 		editLinks: false,
 		editLinkText: 'Found a bug? Help me improve this page!',
-		nav: [
-			{ text: 'Home', link: '/' },
-			{ text: 'About', link: '/about/' },
-			{ text: 'Projects', link: '/projects/' },
-			{ text: 'Blog', link: '/blog/' }
-		],
 		logo: '/logo.png',
 		docsDir: 'src',
 		pageSize: 5,
