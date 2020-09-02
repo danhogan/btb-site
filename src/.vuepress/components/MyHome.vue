@@ -100,6 +100,14 @@ export default {
                     img: ""
                 },
                 {
+                    title: "UDL Site",
+                    tech: ["Vuepress", "Vue.js", "JavaScript"],
+                    description: "A website for my fantasy baseball league: Ultimate Dynasty League.",
+                    link: "https://udl.netlify.app/",
+                    github: "https://github.com/danhogan/udl-site",
+                    img: ""
+                },
+                {
                     title: "Misplaced Hashtags",
                     tech: ["Node.js", "Twitter API"],
                     description: "A goofy Twitter bot that swaps around trending hashtags.",
@@ -124,7 +132,7 @@ export default {
                     img: ""
                 },
                 {
-                    title: "Misplaced Hashtags",
+                    title: "Twitter Stream Data",
                     tech: ["Node.js", "Express", "Socket.io", "D3.js", "Twitter API"],
                     description: "A beginning look at a specific search term on Twitter. Tracks tweets/minute and displays bar graphs.",
                     link: "",
