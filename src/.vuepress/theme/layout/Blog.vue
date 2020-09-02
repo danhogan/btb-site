@@ -14,6 +14,8 @@
 
     <Content class="custom"/>
 
+    <p class="twitter-comments">To continue discussion or comment, please reach out on <a href="https://twitter.com/BelowTheBenthic" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
+
     <div class="page-edit">
       <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
@@ -296,5 +298,9 @@ function find(page, items, offset) {
     width: 100%;
     object-fit: cover;
     height: 20em;
+}
+
+.twitter-comments {
+  margin-top: 8em;
 }
 </style>
