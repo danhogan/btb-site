@@ -1,0 +1,8 @@
+# Redirects from what the browser requests to what we serve
+/books-i-read-in-2018/  /blog/2019/books-i-read-in-2018.html
+/top-albums-of-2018/    /blog/2018/top-albums-of-2018.html
+/a-short-story-for-your-friday/ /blog/2018/a-short-story-for-your-friday.html
+/bulma-burger/ /blog/2018/bulma-burger.html
+/scraping-espn-fantasy-baseball-data-with-node-js/  /blog/2016/scraping-espn-fantasy-baseball-data-with-node-js.html
+/using-d3-js-to-analyze-fantasy-baseball-data/  /blog/2016/using-d3-js-to-analyze-fantasy-baseball-data.html
+/stretch-yourself/  /blog/2016/stretch-yourself.html
