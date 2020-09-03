@@ -7,10 +7,6 @@
         <h2>Full-Stack Web Developer</h2>
     </div>
     <div class="links">
-        <!-- <div>
-            <i class="fa fa-user"></i>
-            <span>About</span>
-        </div> -->
         <div>
             <a href="#projects">
                 <i class="fa fa-image"></i>
@@ -182,7 +178,7 @@ h2 {
 .links {
     margin-top: 4em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
 }
 
