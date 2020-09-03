@@ -7,12 +7,12 @@
         <h2>Full-Stack Web Developer</h2>
     </div>
     <div class="links">
-        <div>
+        <!-- <div>
             <i class="fa fa-user"></i>
             <span>About</span>
-        </div>
+        </div> -->
         <div>
-            <a href="#projectHeader">
+            <a href="#projects">
                 <i class="fa fa-image"></i>
                 <span>Projects</span>
             </a>
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <h2 id="projectHeader">Projects</h2>
+    <h2 id="projects">Projects</h2>
     <div class="projectsContainer">
         <div class="project" v-for="project in projects">
             <h3>{{project.title}}</h3>
@@ -250,7 +250,7 @@ h2 {
     margin-bottom: 0.2em;
 }
 
-#projectHeader {
+#projects {
     margin-top: 7em;
 }
 
