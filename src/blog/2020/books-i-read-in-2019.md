@@ -69,9 +69,9 @@ Page 253:
 
 The book reminds you multiple times that "your time = their money" and that they have a lot of money put into stealing your time.
 
-https://www.youtube.com/watch?v=bdMbqtG8Hvc
+[Related Thrice Song Alert](https://www.youtube.com/watch?v=bdMbqtG8Hvc)
 
-http://nymag.com/intelligencer/2016/09/andrew-sullivan-my-distraction-sickness-and-yours.html
+[Here is a somewhat related article I found interesting.](http://nymag.com/intelligencer/2016/09/andrew-sullivan-my-distraction-sickness-and-yours.html)
 
 ![five-bennies](../images/five-bennies.jpg)
 
