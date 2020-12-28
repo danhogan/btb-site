@@ -243,4 +243,6 @@ function find (page, items, offset) {
       float none
       text-align left
 
+img
+  max-height 400px
 </style>
