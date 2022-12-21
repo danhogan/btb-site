@@ -8,7 +8,7 @@ tags:
     - Ramblings
 ---
 
-## The Subtle Art of Not Giving a F*ck
+## The Subtle Art of Not Giving a F*ck by Mark Manson
 
 ![The Subtle Art of Not Give a F](../images/subtle-art.jpg)
 
