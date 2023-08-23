@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Karla&display=swap" rel="stylesheet">
     <div class="heroContainer">
       <h1>Dan Hogan</h1>
-        <h2>Full-Stack Web Developer</h2>
+        <h2>Professional Steward of Various Beeps and Boops</h2>
     </div>
     <div class="links">
         <div>
@@ -71,6 +71,22 @@ export default {
     data() {
         return {
             projects: [
+                {
+                    title: "Sultans of Stats Website",
+                    tech: ["Next.js", "React", "TypeScript", "ApexCharts"],
+                    description: "Fantasy baseball site with aggregate roto leaderboard for Sultans of Stats league of leagues (298 teams).",
+                    link: "https://www.sultansofstats.com/",
+                    github: "https://github.com/danhogan/sultansofstats",
+                    img: ""
+                },
+                {
+                    title: "TopesCalc",
+                    tech: ["Vue.js", "TypeScript", "Vuetify"],
+                    description: "A battle calculator for the game Polytopia.",
+                    link: "https://topescalc.netlify.app/",
+                    github: "https://github.com/danhogan/topescalc",
+                    img: ""
+                },
                 {
                     title: "Batted Ball Data",
                     tech: ["Vue.js", "Vuetify", "ApexCharts", "Python"],
