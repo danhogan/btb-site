@@ -235,6 +235,7 @@ h2 {
     position: relative;
     /* transition: all 280ms ease-in-out; */
     width: 0;
+    margin-bottom: 1em;
 }
 
 .links > div:hover:after,
@@ -243,7 +244,6 @@ h2 {
     border-color: #CCC;
     transition: width 350ms ease-in-out;
     width: 70%;
-    margin-bottom: 1em;
 }
 
 .links > div:hover:before {
